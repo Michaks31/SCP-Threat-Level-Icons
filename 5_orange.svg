@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <path id="intactShieldPath" d="M 50 12 Q 68 20 85 24 C 85 58 68 80 50 90 C 32 80 15 58 15 24 Q 32 20 50 12 Z"/>
+    <mask id="orangeLeftPieceMask">
+      <rect width="100" height="100.001" fill="black" x="-6.196" y="-0.371"/>
+      <path d="M -6.196 -0.371 L 43.804 -0.371 L 43.804 11.629 L 35.804 25.629 L 49.804 41.629 L 34.804 57.63 L 47.804 73.63 L 41.804 87.63 L 43.804 99.63 L -6.196 99.63 L -6.196 -0.371 Z" fill="white"/>
+    </mask>
+    <mask id="orangeRightPieceMask">
+      <rect width="100" height="100" fill="black" x="7.142" y="-1.561"/>
+      <path d="M 107.142 -1.561 L 57.142 -1.561 L 57.142 10.439 L 49.142 24.439 L 63.142 40.439 L 48.142 56.439 L 61.142 72.439 L 55.142 86.439 L 57.142 98.439 L 107.142 98.439 L 107.142 -1.561 Z" fill="white"/>
+    </mask>
+  </defs>
+  <path d="M 43.804 11.629 C 55.804 16.962 67.47 20.962 78.804 23.629 C 78.804 57.629 61.804 79.63 43.804 89.63 C 25.804 79.63 8.804 57.629 8.804 23.629 C 20.137 20.962 31.804 16.962 43.804 11.629 Z" mask="url(#orangeLeftPieceMask)" style="transform-origin: 43.804px 50.629px 0px;" transform="matrix(0.998135, -0.061049, 0.061049, 0.998135, 0, 0)"/>
+  <path d="M 57.142 10.439 C 69.142 15.772 80.809 19.772 92.142 22.439 C 92.142 56.439 75.142 78.439 57.142 88.439 C 39.142 78.439 22.142 56.439 22.142 22.439 C 33.476 19.772 45.142 15.772 57.142 10.439 Z" mask="url(#orangeRightPieceMask)" style="fill: rgba(0, 0, 0, 0.9); transform-origin: 57.142px 49.439px 0px;" transform="matrix(0.998135, 0.061049, -0.061049, 0.998135, 0, 0)"/>
+</svg>
